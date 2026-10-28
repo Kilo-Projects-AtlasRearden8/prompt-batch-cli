@@ -1,0 +1,4 @@
+Explain retrieval-augmented generation in two sentences.
+What is a local LLM, and why use one?
+Give three tips for writing better prompts.
+Summarize this article for a beginner: artificial intelligence is software that makes predictions from patterns in data, not a mind that understands.

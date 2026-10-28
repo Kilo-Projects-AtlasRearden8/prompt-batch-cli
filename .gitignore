@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+*.egg
+dist/
+build/
+.tox/
+.coverage
+.pytest_cache/
+mypy/
+
+# Local runs
+batch_out/
+smoke_out/
+*.db
+
+# OS
+.DS_Store

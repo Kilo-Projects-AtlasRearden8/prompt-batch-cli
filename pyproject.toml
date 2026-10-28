@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "prompt-batch"
+version = "0.1.0"
+description = "Run one prompt template over many inputs through any OpenAI-compatible endpoint (default Ollama). Saves Markdown and CSV results. Local-first, no API keys required."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [{name = "Asdale Dynamics, LLC"}]
+keywords = ["llm", "ollama", "prompt", "batch", "cli", "local-ai"]
+
+[project.scripts]
+prompt-batch = "prompt_batch.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
