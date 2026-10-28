@@ -1,20 +1,25 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.egg-info/
-*.egg
-dist/
-build/
-.tox/
-.coverage
-.pytest_cache/
-mypy/
 
 # Local runs
-batch_out/
-smoke_out/
-*.db
-
 # OS
+# Python
+*.db
+*.egg
+*.egg-info/
+*.py[cod]
+*.pyc
+*.pyo
 .DS_Store
+.coverage
+.env
+.env.*
+.pytest_cache/
+.tox/
+.venv/
+__pycache__/
+batch_out/
+build/
+dist/
+dist/*.tmp
+mypy/
+node_modules/
+smoke_out/
